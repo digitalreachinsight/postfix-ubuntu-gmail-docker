@@ -1,5 +1,5 @@
 # Prepare the base environment.
-FROM ubuntu:20.04 as builder_base_docker
+FROM ubuntu:24.04 as builder_base_docker
 MAINTAINER itadmin@digitalreach.com.au 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=Australia/Perth
